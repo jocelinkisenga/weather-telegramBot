@@ -1,0 +1,16 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=home/c1663902c/public_html/Lushidevbot
+    - /bin/cp bootstrap.php $DEPLOYPATH
+    - /bin/cp setup.php $DEPLOYPATH
+    - /bin/cp helpers.php $DEPLOYPATH
+    - /bin/cp .env $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp .htacess $DEPLOYPATH
+    - /bin/cp composer.lock.php $DEPLOYPATH
+    -/bin/cp -R public $DEPLOYPATH
+    -/bin/cp -R .git $DEPLOYPATH
+    -/bin/cp -R src $DEPLOYPATH
+    -/bin/cp -R vendor $DEPLOYPATH
