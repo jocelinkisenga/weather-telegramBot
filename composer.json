@@ -1,0 +1,23 @@
+{
+    "name": "wikicongo/src",
+    "description": "une communauté des developpeurs",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Wikicongo\\": "src/"
+        },
+        "files": ["helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "kisenga shuka",
+            "email": "kisengajocelin7@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "irazasyed/telegram-bot-sdk": "^3.5",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
